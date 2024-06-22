@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="no-js" lang="zxx">
+<html class="no-js" lang="{{LaravelLocalization::getCurrentLocale()}}" dir="{{
+LaravelLocalization::getCurrentLocaleDirection() }}">
   <head>
     <!-- Meta Tags -->
     <meta charset="utf-8" />
@@ -160,7 +161,7 @@
                           <li><a href="index.html">Home Page 1</a></li>
                         </ul>
                       </li>
-                      <li><a href="#">Doctos </a></li>
+                      <li><a href="#">Doctors </a></li>
                       <li><a href="#">Services </a></li>
                       <li>
                         <a href="#"

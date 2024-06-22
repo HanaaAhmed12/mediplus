@@ -6,6 +6,7 @@
 						<div class="section-title">
 							<h2>We Offer Different Services To Improve Your Health</h2>
 							<img src="{{ asset('assets/img/section-img.png') }}" alt="#">
+
 							<p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. pretiumts</p>
 						</div>
 					</div>
@@ -40,6 +41,7 @@
 						<!-- Start Choose Rights -->
 						<div class="choose-right">
 							<div class="video-image">
+    
 								<!-- Video Animation -->
 								<div class="promo-video">
 									<div class="waves-block">

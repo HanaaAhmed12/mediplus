@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class FrontpagesController extends Controller
+class FrontPagesController extends Controller
 {
     public function home(){
         $title = 'Mediplus FrontPages';

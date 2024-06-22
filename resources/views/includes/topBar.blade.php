@@ -7,10 +7,12 @@
                 <div class="col-lg-6 col-md-5 col-12">
                     <!-- Contact -->
                     <ul class="top-link">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Doctors</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">{{__('messages.About')}}</a></li>
+                        <li><a href="#">{{__('messages.Doctors')}}</a></li>
+                        <li><a href="#">{{__('messages.Contact')}}</a></li>
+                        <li><a href="#">{{__('messages.FAQ')}}</a></li>
+                        <li><a href="{{ LaravelLocalization::getLocalizedURL('en') }}" style="color: white; background-color: rgb(63, 63, 245); padding: 5px 10px; border-radius: 5px; text-decoration: none;">English</a></li>
+                        <li><a href="{{ LaravelLocalization::getLocalizedURL('ar') }}" style="color: white; background-color: rgb(63, 63, 245); padding: 5px 10px; border-radius: 5px; text-decoration: none;">Arabic</a></li>
                     </ul>
                     <!-- End Contact -->
                 </div>

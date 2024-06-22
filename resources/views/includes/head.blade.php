@@ -1,3 +1,4 @@
+
   <!-- Meta Tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -36,3 +37,5 @@
   <link rel="stylesheet" href="{{ asset('assets/css/normalize.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
   <link rel="stylesheet" href="{{ asset('assets/css/responsive.css') }}">
+
+
